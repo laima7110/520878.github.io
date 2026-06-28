@@ -1,0 +1,9 @@
+/* 网站背景渐变美化 */
+#web_bg {
+    background: linear-gradient(90deg, rgba(135, 206, 235, .1), rgba(147, 112, 219, .1) 25%, rgba(255, 105, 180, .1) 50%, rgba(255, 165, 0, .1) 75%, rgba(124, 252, 0, .1) 100%);
+    transition: background 0.5s ease;
+}
+
+[data-theme=dark] #web_bg {
+    background: linear-gradient(90deg, rgba(20, 20, 40, .5), rgba(40, 20, 60, .5) 25%, rgba(60, 20, 40, .5) 50%, rgba(40, 40, 20, .5) 75%, rgba(20, 40, 20, .5) 100%);
+}
